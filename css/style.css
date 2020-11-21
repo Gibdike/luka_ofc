@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    position: relative;
+}
+
+hr {
+    width: 20%;
+    border: 2px solid black;
+    background-color: black;
+    height: 1px;
+}
+
+:root {
+    font-size: 100%;
+}
+
+.container {
+    max-width: 960px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#bar {
+    left: 20px;
+    position: fixed;
+    height: 100vh;
+    width: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#bar .bar_fundo {
+    position: absolute;
+}
+
+#bar ul {
+    height: 150px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 15px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 10;
+}
+
+#bar .bar_mark {
+    position: absolute;
+}
+
+#home {
+    z-index: -2;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+}
+
+#home h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: 0.075em;
+    margin-top: 20px;
+}
+
+#home .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+
+#home .container .box {
+    max-width: 800px;
+    min-width: 200px;
+    text-align: left;
+}
+
+#home h1 {
+    text-align: left;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 100px;
+    /* or 114% */
+    text-transform: capitalize;
+}
+
+#home h2 {
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 21px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+
+/*parte1*/
+
+.format_r {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+    text-align: center;
+}
+
+.format_r h2 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 75px;
+    margin-bottom: 100px;
+}
+
+.format_r h3 {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 31px;
+    text-align: center;
+}
+
+
+/*mymemories*/
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.titulo h1 {
+    margin: auto 30px;
+}
+
+.titulo hr {
+    width: 100px;
+}
+
+.mymemories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+    text-align: center;
+}
+
+.mymemories h1 {
+    text-align: left;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 100px;
+    /* or 114% */
+    text-transform: capitalize;
+    position: relative;
+}
+
+.mymemories h2 {
+    margin: 20px auto;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 31px;
+    text-align: center;
+}
+
+audio {
+    margin: 50px auto;
+}
+
+b {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 31px;
+    text-align: center;
+}
+
+
+/*Diviosion*/
+
+.division {
+    height: 100px;
+    background-image: url(../svg/division.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/*Activies*/
+
+.activies {
+    margin: 200px auto;
+}
+
+.activies h1 {
+    text-align: left;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 100px;
+    /* or 114% */
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.activies h2 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: left;
+}
+
+.activies h3 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 100%;
+    /* or 24px */
+    letter-spacing: 0.075em;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.activies h4 {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 31px;
+    text-align: left;
+}
+
+.activies ul {
+    margin: 100px auto;
+}
+
+.activies li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.activies .text {
+    max-width: 550px;
+}
+
+.activies ul li:nth-child(even) .text {
+    padding-left: 30px;
+    text-align: left;
+}
+
+.activies ul li:nth-child(odd) {
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+}
+
+.activies ul li:nth-child(odd) .text {
+    padding-right: 30px;
+    text-align: left;
+}
+
+img {
+    max-width: 360px;
+    max-height: 360px;
+}
+
+button {
+    margin-top: 100px;
+    font-size: 1.5rem;
+    background: transparent;
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+
+
+/*Activies*/
+
+.thedandelion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+    text-align: center;
+}
+
+.thedandelion h1 {
+    text-align: left;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 100px;
+    /* or 114% */
+    text-transform: capitalize;
+}
+
+.thedandelion h2 {
+    margin: 20px auto;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 31px;
+    text-align: center;
+}
+
+
+/*js*/
+
+.animation {
+    opacity: 0;
+    transform: translate3d(-50px, 0, 0);
+    transition: .5s;
+}
+
+.ativo {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
