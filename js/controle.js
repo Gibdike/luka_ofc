@@ -57,6 +57,11 @@ function TextoComNegrito(textoGrande, textoNegrito, classeHtml) {
 //Luka aqui o primeiro elemento é o texto e o segundo é oq fica em negrito
 //Outra coisa é definir a classe então temos '.mymemories .box' ou '.thedandelion .box'
 TextoComNegrito(
+    'aaaaaaaaaaaaaaaaaaaaa Her big light blue eyes were the most beautiful ones I’ve ever seen. Perhaps that’s the most vivid memory I have of her. When she looked at me, it was as if a fissure in space was opened and a light would shine in my direction—Icould feel love through her gaze. Even when she was mad, her eyes would still bring love—the purest form of it. Maybe that was when I learned what love is.',
+    "I remember her eyes. ",
+    '.mymemories .box'
+)
+TextoComNegrito(
     'Her big light blue eyes were the most beautiful ones I’ve ever seen. Perhaps that’s the most vivid memory I have of her. When she looked at me, it was as if a fissure in space was opened and a light would shine in my direction—Icould feel love through her gaze. Even when she was mad, her eyes would still bring love—the purest form of it. Maybe that was when I learned what love is.',
     "I remember her eyes. ",
     '.mymemories .box'

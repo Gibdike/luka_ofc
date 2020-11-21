@@ -11,6 +11,10 @@ function CriandoBar(nome, classe) {
 }
 CriandoBar("1", "mymemorie")
 CriandoBar("2", "parte2")
+CriandoBar("3", "parte2")
+CriandoBar("4", "parte2")
+
+
 
 function barHover() {
     const listt = document.querySelectorAll("#bar ul");

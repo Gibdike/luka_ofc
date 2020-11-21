@@ -9,6 +9,7 @@
 
 body {
     position: relative;
+    background-color: blue;
 }
 
 hr {
@@ -100,6 +101,7 @@ hr {
 }
 
 #home h2 {
+    font-family: 'Raleway', sans-serif;
     text-align: left;
     font-style: normal;
     font-weight: bold;
