@@ -4,7 +4,8 @@
     text-align: center;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
 }
 
 body {
@@ -32,27 +33,37 @@ hr {
     left: 20px;
     position: fixed;
     height: 100vh;
-    width: 20px;
     display: flex;
     align-items: center;
-}
-
-#bar .bar_fundo {
-    position: absolute;
-}
-
-#bar ul {
-    height: 150px;
-    font-family: 'Raleway', sans-serif;
-    margin-left: 15px;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: left;
     z-index: 10;
 }
 
+#bar ul {
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    display: inline;
+    z-index: 10;
+}
+
+#bar ul li {
+    text-align: left;
+}
+
+.bar_tudo {
+    position: relative;
+    width: 6px;
+}
+
+#bar a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
 #bar .bar_mark {
+    top: 0;
+    left: 0;
     position: absolute;
 }
 
@@ -348,4 +359,20 @@ button {
 .ativo {
     opacity: 1;
     transform: translate3d(0, 0, 0);
+}
+
+ul .extend {
+    transition: .5s;
+    width: 200px;
+}
+
+#bar ul li.extend a {
+    transition: .5s;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    padding-right: 30px;
+    border-radius: 5px;
+    background: rgb(224, 224, 224);
+    text-decoration: none;
+    color: black;
 }
