@@ -66,7 +66,7 @@ function initAnimacaoScroll() {
     const mark = document.querySelectorAll(".bar_mark");
 
     if (sections.length) {
-        const windowMetade = window.innerHeight * 0.6;
+        const windowMetade = window.innerHeight * 0.65;
 
         function animaScroll() {
             sections.forEach((section) => {

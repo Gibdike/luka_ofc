@@ -53,6 +53,7 @@ function TextoComNegrito(textoGrande, textoNegrito, classeHtml) {
     newh2.appendChild(newNegrito);
     newh2.appendChild(a);
     position.appendChild(newh2);
+    newh2.classList.add('animation');
 }
 //Luka aqui o primeiro elemento é o texto e o segundo é oq fica em negrito
 //Outra coisa é definir a classe então temos '.mymemories .box' ou '.thedandelion .box'
