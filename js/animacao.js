@@ -12,11 +12,9 @@ function CriandoBar(nome, classe) {
     position.appendChild(newLi);
 }
 CriandoBar("1", "home")
-CriandoBar("2", "parte1")
-CriandoBar("3", "mymemorie")
-CriandoBar("4", "parte2")
-CriandoBar("5", "parte3")
-CriandoBar("6", "thedandelion")
+CriandoBar("2", "mymemorie")
+CriandoBar("3", "parte3")
+CriandoBar("4", "thedandelion")
 
 function barHover() {
     const listt = document.querySelectorAll("#bar li");
